@@ -118,6 +118,68 @@
 
     <hr>
 
+    <!-- Order Form -->
+    <h2 id="order">🛒 Quick Order Reservation</h2>
+
+    <p>
+        Fill out this form to reserve your books before coming to the store.
+    </p>
+
+    <form>
+
+        <fieldset>
+            <legend>Order Details</legend>
+
+            <label for="admission">
+                Student Admission No:
+            </label><br>
+
+            <input type="text"
+                   id="admission"
+                   placeholder="e.g., ST-1234">
+
+            <br><br>
+
+            <label for="book">
+                Select Book to Reserve:
+            </label><br>
+
+            <select id="book">
+                <option>The Secret Island (Rs. 850.00)</option>
+                <option>Madol Doova (Rs. 600.00)</option>
+                <option>ICT Textbook (Rs. 450.00)</option>
+            </select>
+
+            <br><br>
+
+            <label for="date">
+                Preferred Collection Date:
+            </label><br>
+
+            <input type="date" id="date">
+
+            <br><br>
+
+            <label for="notes">
+                Special Notes / Instructions:
+            </label><br>
+
+            <textarea id="notes"
+                      rows="5"
+                      cols="50"
+                      placeholder="Any specific requirements..."></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit Reservation">
+            <input type="reset" value="Reset Form">
+
+        </fieldset>
+
+    </form>
+
+    <br>
+
 
 </body>
 </html>
